@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text</title>
+  </head>
+
+  <script type="text/javascript" src="random.js"></script>
+  <link rel="stylesheet" href="random.css" />
+  <link rel="stylesheet" href="reference.css" />
+
+  <style>
+    .BoxCenter {
+      margin: auto;
+      width: 50%;
+      border: 3px solid;
+      padding: 10px;
+      background-color: rgb(241, 233, 233);
+    }
+
+    .TextCenter {
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .divcss {
+      margin-top: 30px;
+      background-color: rgb(242, 243, 221);
+      border-radius: 19px;
+      height: 1300px;
+      border-style: dotted;
+      border-color: #98bf21;
+    }
+
+    .bodycss {
+      background-color: aliceblue;
+      background-image: linear-gradient(
+        to bottom right,
+        rgba(189, 168, 241, 0.945),
+        rgba(0, 174, 255, 0.719)
+      );
+    }
+
+    .text {
+      margin: 25px;
+    }
+
+    .rules {
+      font-size: 15px;
+    }
+    b {
+      font-size: 16px;
+    }
+  </style>
+  <body class="bodycss">
+    <h1 class="BoxCenter TextCenter">给杨老师的建议</h1>
+    <div class="divcss">
+      <div class="text">
+        <p>
+          &emsp;&emsp;杨老师您好，不知不觉中一学期的课程就那么过去了，感觉这学期过得不是很充实。虽然老师讲的非常认真，但是我想向老师提几个意见:
+        </p>
+        <div class="rules">
+          <!-- 1 -->
+          <p>
+            <b>1.微笑中，拉近师生的心</b>
+            <br />&emsp;&emsp;老师的微笑有着无穷的魅力。老师的微笑能调节课堂情绪，增进师生情谊，激发学生的学习的热情，增强其自信力。
+          </p>
+          <!-- 2 -->
+          <p>
+            <b>2.自然中，课堂教学精彩无痕</b>
+            <br />&emsp;&emsp;最好的课前交流，是老师与学生自然的谈话，并不露痕迹地将学生引入新课的学习中，为精彩教学做准备。
+          </p>
+          <!-- 3 -->
+          <p>
+            <b>3.幽默中，彰显教师魅力</b>
+            <br />&emsp;&emsp;课堂精彩教学最重要的、也是第一位的助手，就是一种幽默。
+          </p>
+          <!-- 4 -->
+          <p>
+            <b>4.鼓励中，激发学生的自信</b>
+            <br />&emsp;&emsp;教育就是鼓励，教育就是肯定，教育就是让学生学习成功！
+          </p>
+          <!-- 5 -->
+          <p>
+            <b>5.互动中，构建和谐的课堂</b>
+            <br />&emsp;&emsp;课前互动环节，能有效调动学生的兴趣，使学生尽快进入最佳学习状态。
+          </p>
+          <!-- 6 -->
+          <p>
+            <b>6.科技中，创建数字课堂</b>
+            <br />&emsp;&emsp;在课堂中使用小程序的方法活跃气氛，使用随机数生成器点名。
+          </p>
+          <!-- 随机数生成器 -->
+          <div
+            style="background-color: rgb(218, 214, 214); border-radius: 19px"
+          >
+            <p style="font-size: 0.5px"><br /></p>
+            <h1 class="TextCenter" style="margin-top: 20px">随机数生成器</h1>
+
+            <p class="inputTL">
+              &nbsp&nbsp请输入最小值: &nbsp&nbsp&nbsp&nbsp&nbsp请输入最大值：
+            </p>
+            <input class="inputL" type="text" value="1" id="min" />
+            <input class="inputR" type="text" value="45" id="max" />
+
+            <p style="font-size: 17px" class="TextCenter" id="random">
+              我是随机数
+            </p>
+            <div class="BoxCenters">
+              <button type="button" onclick="demo()">生成随机数</button>
+              <p style="font-size: 5px"><br /></p>
+            </div>
+          </div>
+          <!-- /随机数生成器 -->
+          <!-- 7 -->
+          <p>
+            <b>7.游戏中，点燃快乐课堂的火种</b>
+            <br />&emsp;&emsp;如果课堂没有游戏，就没有也不可能有学生完美的智力发展。适当添加一些与课堂内容的小游戏。
+          </p>
+          <!-- 8 -->
+          <p>
+            <b>8.系时事，牵动学生的心</b>
+            <br />&emsp;&emsp;教师联系时事的导入，可以激发学生的学习兴趣，唤醒学生的生活经验，贴近生活实际，同时又富于思考性，挑战性。在不影响课堂纪律的情况下，适当结合当下事实。
+          </p>
+          <!-- 引用 -->
+          <div class="Borders">
+            <div class="paddings">
+              <h1 class="h1s">”</h1>
+              <p class="texts">
+                赵客缦胡缨，吴钩霜雪明。<br />
+                银鞍照白马，飒沓如流星。<br />
+                十步杀一人，千里不留行。 <br />事了拂衣去，深藏身与名。
+              </p>
+              <p>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp——李白《侠客行》(改)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      style="
+        margin-top: -80px;
+        margin-left: 345px;
+        font-size: 17px;
+        font-weight: bold;
+      "
+    >
+      &nbsp&nbsp&nbsp七(9)班<br />&nbsp&nbsp&nbsp&nbsp胡洛源<br />2023.4.1
+    </p>
+  </body>
+</html>

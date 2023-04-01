@@ -1,0 +1,24 @@
+.TextCenter {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.BoxCenters {
+  display: auto;
+  margin-left: 41%;
+}
+
+.inputL {
+  margin-left: 81px;
+  width: 100px;
+}
+
+.inputR {
+  margin-left: 10px;
+  width: 100px;
+}
+
+.inputTL {
+  margin-left: 20%;
+  height: 10px;
+}

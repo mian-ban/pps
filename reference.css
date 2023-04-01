@@ -1,0 +1,27 @@
+.Borders {
+  height: 210px;
+  width: 400px;
+  background: #b8ec9a;
+  margin-left: -10px;
+}
+
+.paddings {
+  margin: 20px;
+  height: 195px;
+  width: 380px;
+  background: #86dce2;
+}
+.h1s {
+  display: block;
+  font-size: 64px;
+  color: #807a7a;
+  margin: 10px;
+}
+
+.texts {
+  margin-top: -65px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 5px;
+}

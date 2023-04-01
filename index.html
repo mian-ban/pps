@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jjs</title>
+  </head>
+  <body>
+    <p id="p1" style="font-size: 44px; color: #ff0000">
+      <b>此网页被阻止！！！</b>
+    </p>
+    <script>
+      setTimeout("wait()", 1200);
+      function wait() {
+        let p1 = document.getElementById("p1");
+        p1.innerHTML = "<p style='color: #000000'>骗你的^o^</p>";
+      }
+      setTimeout("roll()", 2560);
+      function roll() {
+        window.location.replace("text.html");
+      }
+    </script>
+  </body>
+</html>
