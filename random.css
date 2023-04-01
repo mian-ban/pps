@@ -1,6 +1,6 @@
 .TextCenter {
   text-align: center;
-  margin-left: 10px;
+  margin-left: px;
 }
 
 .BoxCenters {
@@ -9,7 +9,7 @@
 }
 
 .inputL {
-  margin-left: 81px;
+  margin-left: 60px;
   width: 100px;
 }
 
@@ -19,6 +19,6 @@
 }
 
 .inputTL {
-  margin-left: 20%;
+  margin-left: 55px;
   height: 10px;
 }
